@@ -1,0 +1,10 @@
+npm init ---> to generate the package json file.
+npm init -y --> to put some data into json file which are neccesary
+npm i nodemon --> install package-lock.json files and it automatically resatrt when it see any file changes /no mannual refresh needed.
+             ---> run "nodemon index.js"
+
+1. we create a index.js in this we write import and in utils we write export code.(doccuments/Node_lec)
+2.in package.json write "type":"module", 
+3.for export use exports const function ;
+4.for import use import {funct} from '/utils.js';
+
