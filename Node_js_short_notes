@@ -8,3 +8,7 @@ npm i nodemon --> install package-lock.json files and it automatically resatrt w
 3.for export use exports const function ;
 4.for import use import {funct} from '/utils.js';
 
+npm install mongoose to use mongo DB in express
+
+Callback function ek aisi function hoti hai jo dusri function ke andar bheji jaati hai, aur kaam hone ke baad call hoti hai.
+
