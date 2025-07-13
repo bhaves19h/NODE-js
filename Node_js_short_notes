@@ -12,3 +12,15 @@ npm install mongoose to use mongo DB in express
 
 Callback function ek aisi function hoti hai jo dusri function ke andar bheji jaati hai, aur kaam hone ke baad call hoti hai.
 
+
+--------------**how to connect to mongoDB **----------------
+1.create mongodb acc.
+2.create a cluster remeber the password.
+3.give network full access.
+4.connect the cluster using connect in the data access >connect>compass.
+5.go to mongodb atlas then start a new connection , write project name.
+6.edit a string then copy from compass link and add it to the connection string replace it by "<dbpass>".
+7.save & connect and then copy connection string and paste it to the express code for ex. mongoose.connect(mongodb+srv://bhavesh:Bhaveshs%400@cluster0.jpra0bk.mongodb.net/).
+--------------------*-*---*--*****--**-*-*-*-***-*-**-*-*-*-*-*-*-*-*-*---**-*-*-*-*-*-*-**-
+
+
